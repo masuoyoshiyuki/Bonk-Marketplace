@@ -8,12 +8,12 @@ import { useShopStore } from '@/store/useShopStore';
 const Drop: React.FC = () => {
 const userWallet = useUserWallet();
 const candyShop = useShopStore((s) => s.candyShop);
-const [prices, setPrices] = useState({
-    hoodie: '24390243',
-    beanie: '8130081',
-    tshirt: '16129032',
-    hat:    '12096774'
-  });
+const [prices] = useState({
+  hoodie: '24390243',
+  beanie: '8130081',
+  tshirt: '16129032',
+  hat:    '12096774'
+});
   const [selectedPrice, setSelectedPrice] = useState({});
   return (
     <DesContainer>
