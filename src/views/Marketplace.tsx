@@ -14,9 +14,9 @@ const Marketplace: React.FC = () => {
     <DesContainer>
       <Stat
         candyShop={candyShop}
-        title={'Marketplace'}
+        title={'BONK Marketplace'}
         description={
-          'Candy Shop is an open source library that allows you to create NFT storefronts and auctions in minutes!'
+          'All NFTs and Merch in the Bonk Marketplace are priced in $BONK. Remember there is a 10% tax on all sales which is burned! '
         }
         style={{ paddingBottom: 50 }}
       />
