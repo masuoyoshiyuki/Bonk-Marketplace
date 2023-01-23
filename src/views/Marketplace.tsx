@@ -16,7 +16,7 @@ const Marketplace: React.FC = () => {
         candyShop={candyShop}
         title={'BONK Marketplace'}
         description={
-          'All NFTs and Merch in the Bonk Marketplace are priced in $BONK. Remember there is a 10% tax on all sales which is burned! '
+          'All NFTs and Merch in the Bonk Marketplace are priced in $BONK. Remember there is a 1% tax on all sales which is burned! '
         }
         style={{ paddingBottom: 50 }}
       />
