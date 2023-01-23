@@ -22,7 +22,7 @@ const [prices] = useState({
         Have the chance to own your very own custom designed Bonk Merch purchased with $BONK
       </p>
       <p style={{ marginBottom: 40 }}>
-        Note: there is a 10% tax on all purchases that is burned!
+        Note: there is a 1% tax on all purchases that is burned!
       </p>
       {candyShop && (
         <Drops
@@ -56,7 +56,7 @@ const [prices] = useState({
 
 <div>
   <p>Selected Item: {Object.keys(selectedPrice)[0]}</p>
-  <p>Price with burn tax: {(Number(Object.values(selectedPrice)[0]) * 1.1).toFixed(0)} BONK</p>
+  <p>Price with burn tax: {(Number(Object.values(selectedPrice)[0]) * 1.01).toFixed(0)} BONK</p>
 </div>
 }
     </DesContainer>
