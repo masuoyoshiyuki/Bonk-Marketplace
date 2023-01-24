@@ -182,6 +182,15 @@ const Drop: React.FC = () => {
             onClick={changeData}
           >
             Show BONK price
+            <p
+              style={{
+                fontSize: "13px",
+                lineHeight:0,
+                marginTop:"6px"
+              }}
+            >
+              Powered by Orca
+            </p>
           </button>
         )}
       </div>
